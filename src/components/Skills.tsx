@@ -40,14 +40,14 @@ export default function Skills() {
       title: "Frontend Development",
       icon: <FaLaptopCode className="text-blue-400 text-3xl" />,
       description: "Crafting beautiful and responsive user interfaces with modern web technologies",
-      items: ["React", "Next.js", "TypeScript","Angular","Ajax","jQuery" ,"JavaScript", "HTML5", "CSS3", "Tailwind CSS"]
+      items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design", "UI/UX", "Git", "GitHub"]
     },
     {
       category: "backend",
       title: "Backend Development",
       icon: <FaServer className="text-green-500 text-3xl" />,
       description: "Building robust and scalable server-side applications and APIs",
-      items: ["Node.js", "Express", "MongoDB","Php","Java"]
+      items: ["Node.js", "Express", "NestJS", "Microservices", "MongoDB", "MySQL", "PHP", "WordPress", "Java"]
     },
     {
       category: "mobile",

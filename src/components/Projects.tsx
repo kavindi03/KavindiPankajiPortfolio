@@ -5,6 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiGithub, FiExternalLink, FiYoutube } from "react-icons/fi";
 import { FaReact, FaNodeJs, FaJava, FaPhp, FaAndroid, FaFigma, FaServer, FaMobile } from "react-icons/fa";
 import { SiTypescript, SiMongodb, SiKotlin, SiMysql, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiVite } from "react-icons/si";
+import cafeposImage from "../assets/cafepos.jpg";
+import portfolioImage from "../assets/portfolio.png";
+import project2Image from "../assets/project2.jpg";
+import onlineImage from "../assets/online.jpeg";
+import coffeeImage from "../assets/coffee.jpeg";
+import petAppImage from "../assets/Petapplication.png";
+import wellnessImage from "../assets/wellness.png";
+import coffeeAppImage from "../assets/CoffeeApp.png";
+import soulnestImage from "../assets/soulnest.png";
+import ecommerceImage from "../assets/E-Commerce Mobile App.png";
+import foodMobileImage from "../assets/Food Mobile App.png";
+import posVideo from "../assets/pos_system.mp4";
 
 // Tech Icons Mapping - Used in the ProjectCard component
 // @ts-ignore - JSX namespace is available in React 17+
@@ -162,8 +174,8 @@ export default function Projects() {
       title: "CaféPOS – Web-Based Café Billing & Inventory Management System",
       description: "A MERN-based POS and Inventory Management System for small cafés to manage billing, stock levels, suppliers, employees, and customers with real-time updates.",
       tags: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-      image: "/src/assets/cafepos.jpg",
-      videoUrl: "src/assets/pos_system.mp4",
+      image: cafeposImage,
+      videoUrl: posVideo,
       githubUrl: "https://github.com/Gayaltil954/pos-system",
       type: "web",
       featured: true
@@ -173,7 +185,7 @@ export default function Projects() {
       title: "Personal Portfolio Website",
       description: "A modern and responsive personal portfolio website built using React, TypeScript, Tailwind CSS, and Vite. This portfolio showcases my skills in UI/UX design, frontend development, backend development, and full-stack development. It includes sections for my projects, education, skills, achievements, and contact details, with seamless integration of GitHub and LinkedIn profiles. The website is fast, mobile-friendly, and deployed using GitHub Pages.",
       tags: ["HTML", "CSS", "JavaScript", "React", "TypeScript", "Tailwind CSS", "Vite"],
-      image: "/src/assets/portfolio.png",
+      image: portfolioImage,
       githubUrl: "https://www.figma.com/design/bFBFNCy43xQJTzOzJVgtKg/E-Commerce-Mobile-App?node-id=0-1&t=BVgsvrDxdo6dPwPF-1",
       type: "web",
       featured: true
@@ -183,7 +195,7 @@ export default function Projects() {
       title: "Online Event Planning System",
       description: "A full CRUD event planning system for managing events, bookings, and schedules with user registration and management.",
       tags: ["Java", "HTML", "CSS", "JavaScript"],
-      image: "/src/assets/project2.jpg",
+      image: project2Image,
       githubUrl: "https://github.com/kavindi03/OnlineEventManagementSystem",
       type: "web",
       featured: true
@@ -193,7 +205,7 @@ export default function Projects() {
       title: "Online Advertising Agency Platform",
       description: "An online advertising platform with user registration, profile management, order placement, and customer support modules.",
       tags: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
-      image: "/src/assets/online.jpeg",
+      image: onlineImage,
       githubUrl: "https://github.com/kavindi03/Online-Advertising-Agency-Platform",
       type: "web",
       featured: true
@@ -203,7 +215,7 @@ export default function Projects() {
       title: "Coffee Ordering App",
       description: "Android coffee shop app with splash, home, menu, and order screens with a clean and responsive UI.",
       tags: ["Kotlin", "Android"],
-      image: "/src/assets/coffee.jpeg",
+      image: coffeeImage,
       githubUrl: "https://github.com/kavindi03/Coffee-App",
       type: "mobile",
       featured: true
@@ -213,7 +225,7 @@ export default function Projects() {
       title: "PetCareBuddy – Mobile App",
       description: "An Android app to help pet parents manage their pets' daily needs including health tracking, reminders, and vet appointments.",
       tags: ["Kotlin", "Android", "Material Design 3"],
-      image: "/src/assets/Petapplication.png",
+      image: petAppImage,
       githubUrl: "https://github.com/kavindi03/Pet-Care-Buddy-Android-App",
       type: "mobile",
       featured: true
@@ -223,7 +235,7 @@ export default function Projects() {
       title: "Personal Wellness Android App",
       description: "A wellness app with habit tracking, mood journaling, and hydration reminders for personal health management.",
       tags: ["Kotlin", "Android"],
-      image: "/src/assets/wellness.png",
+      image: wellnessImage,
       githubUrl: "https://github.com/kavindi03/Wellness_App",
       type: "mobile",
       featured: true
@@ -233,7 +245,7 @@ export default function Projects() {
       title: "Coffee Ordering App UI/UX",
       description: "Figma design for a coffee ordering app with welcome screen, product listing, cart, and checkout flows.",
       tags: ["Figma", "UI/UX"],
-      image: "/src/assets/CoffeeApp.png",
+      image: coffeeAppImage,
       githubUrl: "https://www.figma.com/design/sMVXeW8ln286cah2GcYKVs/Coffee-App?node-id=0-1&t=xYDNzJBr9Bjz0cEa-1",
       type: "design",
       featured: true
@@ -244,7 +256,7 @@ export default function Projects() {
       description: "A mobile mental wellness app design with mood tracking, meditation, and stress-relief features.",
       tags: ["Figma", "UI/UX"],
       githubUrl: "https://www.figma.com/design/n97oGDXooxc8mgmBCTgrTy/SoulNest?node-id=175-2&t=z8iSjEbc8EU6TiMo-1",
-      image: "/src/assets/soulnest.png",
+      image: soulnestImage,
       type: "design",
       featured: true
     },
@@ -253,7 +265,7 @@ export default function Projects() {
       title: "PetCare App UI/UX",
       description: "Mobile app design for pet lovers to adopt and manage their pets' care with clean visual hierarchy.",
       tags: ["Figma", "UI/UX"],
-      image: "/src/assets/Petapplication.png",
+      image: petAppImage,
       githubUrl: "https://www.figma.com/design/xPnfvd5QDk16qTPYKCwjQa/PetApp?node-id=0-1&t=CG5wAB6PLeqoGZu7-1",
       type: "design",
       featured: true
@@ -263,7 +275,7 @@ export default function Projects() {
       title: "E-Commerce Mobile App UI/UX",
       description: "A mobile shopping app design with product browsing, cart, and checkout flows.",
       tags: ["Figma", "UI/UX"],
-      image: "/src/assets/E-Commerce Mobile App.png",
+      image: ecommerceImage,
       githubUrl: "https://www.figma.com/design/bFBFNCy43xQJTzOzJVgtKg/E-Commerce-Mobile-App?node-id=0-1&t=BVgsvrDxdo6dPwPF-1",
       type: "design",
       featured: true
@@ -274,7 +286,7 @@ export default function Projects() {
       title: "Food Delivery App UI/UX",
       description: "First UI/UX design project featuring welcome, signup, and home screens for a food delivery app.",
       tags: ["Figma", "UI/UX"],
-      image: "/src/assets/Food Mobile App.png",
+      image: foodMobileImage,
       githubUrl: "https://www.figma.com/design/DtYJn47EPODuf4gPEqgr39/Food-Mobile-App?node-id=0-1&t=q8zZbZwrJHxzNpAV-1",
       type: "design",
       featured: true

@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { FaGraduationCap, FaSchool, FaBook, FaLaptopCode, FaServer, FaDatabase } from 'react-icons/fa';
+import sliitLogo from "../assets/sliitlogo.jpg";
+import schoolLogo from "../assets/school.jpg";
 
 const educationData = [
   {
@@ -9,7 +11,7 @@ const educationData = [
     period: "2023 - 2027",
     description: "I am a 3rd-year undergraduate student at SLIIT specializing in Information Technology. I am actively involved in university life as a member of the Faculty of Computing Student Committee(Sub Committee), and the Athletics Team. I am currently seeking internship opportunities in Frontend Development, Backend Development, Full-Stack Development, and UI/UX Design. My academic foundation, leadership roles, and extracurricular involvement have helped me develop strong technical, creative, and teamwork skills.",
     icon: <FaGraduationCap className="text-2xl text-purple-400" />,
-    logo: "src/assets/sliitlogo.jpg",
+    logo: sliitLogo,
     alt: "SLIIT Logo",
     courses: [
       { name: "Web Development", icon: <FaLaptopCode className="text-blue-400" /> },
@@ -30,7 +32,7 @@ const educationData = [
     period: "2010 - 2022",
     description: "I completed my G.C.E. Ordinary Level and Advanced Level examinations at Samudra Devi Balika Vidyalaya, where I also served as a School Prefect and Sports Captain. These leadership roles strengthened my communication, teamwork, and responsibility, while my academic journey helped build a strong foundation for my personal and professional growth.",
     icon: <FaSchool className="text-2xl text-blue-400" />,
-    logo: "src/assets/school.jpg",
+    logo: schoolLogo,
     alt: "Samudradevi Balika Vidyalaya Logo",
     achievements: [
       "Served as a School Prefect demonstrating leadership, discipline, and responsibility.",

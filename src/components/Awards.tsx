@@ -21,6 +21,15 @@ export default function Awards() {
       icon: <FaMedal className="text-blue-400 text-2xl" />,
       category: "Sports Achievement"
     },
+    {
+      id: 3,
+      title: "Awarded SLIIT Colours",
+      issuer: "SLIIT Colours Awards Ceremony",
+      date: "2025",
+      description: "Recognized for outstanding sporting achievements with a SLIIT Colours award in 2025.",
+      icon: <FaTrophy className="text-yellow-400 text-2xl" />,
+      category: "Athletic Excellence"
+    },
   
   ];
 

@@ -12,6 +12,7 @@ import { Particles } from "@tsparticles/react";
 import type { Container, ISourceOptions } from "@tsparticles/engine";
 // @ts-ignore - Types are used in the component
 import avatar from "../assets/pankaji.jpg";
+import cv from "../assets/KAVINDI_PANKAJI.pdf";
 
 export default function Hero() {
   const [currentRole, setCurrentRole] = useState(0);
@@ -237,7 +238,7 @@ export default function Hero() {
               </a>
               
               <a
-                href="/src/assets/KAVINDI_PANKAJI.pdf"
+                href={cv}
                 download
                 className="group relative px-8 py-4 bg-white/5 backdrop-blur-sm border border-white/10 text-white rounded-full font-medium overflow-hidden transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-white/5 flex items-center gap-2"
               >
