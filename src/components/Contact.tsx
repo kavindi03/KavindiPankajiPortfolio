@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { FiMail, FiPhone, FiMapPin, FiLinkedin, FiGithub } from "react-icons/fi";
-import { FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FiMail, FiMapPin, FiLinkedin, FiGithub } from "react-icons/fi";
 
 export default function Contact() {
   const handleSubmit = (e: React.FormEvent) => {

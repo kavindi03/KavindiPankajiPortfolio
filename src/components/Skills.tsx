@@ -1,12 +1,13 @@
 import { useState, useRef, useEffect } from 'react';
 import type { JSX } from 'react';
 import { motion, useInView, useAnimation } from "framer-motion";
-import { 
+import {
   FaCode, FaServer, FaPalette, FaLaptopCode, FaMobile
 } from "react-icons/fa";
-import { SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, 
-  SiRedux, SiExpress, SiMongodb, SiFirebase, SiFigma, 
-  SiReact, SiNextdotjs, SiNodedotjs, SiGraphql, SiDocker, SiKubernetes 
+import {
+  SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss,
+  SiExpress, SiMongodb, SiFirebase, SiFigma,
+  SiReact, SiNextdotjs, SiNodedotjs
 } from "react-icons/si";
 
 const getSkillIcon = (skill: string) => {
